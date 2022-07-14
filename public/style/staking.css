@@ -1,0 +1,58 @@
+body{
+  background: #000 !important;
+}
+.back{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+
+}
+
+.div {
+
+ padding: 50px;
+ border-width: 5px;
+ border-color: #222;
+ border-style: solid;
+ border: 5px solid #222;
+  margin: 25px 25px 50px 25px;
+}
+
+
+.div {
+  text-align: center;
+  letter-spacing: 0.4em;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 2rem;
+  background: #222;
+}
+
+.div:hover {
+  color: white;
+  border-color: #fff;
+}
+#one{
+  color: #ff9200;
+}
+#two{
+  color: #6493be;
+}
+#one:hover {
+  background: #ff9200;
+  color: #222;
+}
+
+#two:hover {
+  background: #6493BE;
+  color: #222;
+}
+.text_bx{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 25rem;
+  height: 7rem;
+    color: #fff;
+}

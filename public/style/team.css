@@ -1,0 +1,28 @@
+.card{
+	display: inline-block;
+	margin: 8.5rem;
+	width: 290px;
+	height: 450px;
+	transition: .5s;
+	background: #222;
+}
+.card, .img_bx, img{
+	border-radius: 20px;
+}
+.img_bx{
+	position: absolute;
+	background: #fff;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+.profile_img{
+	width: 290px;
+	height: 450px;
+	transition: .5s;
+}
+
+.card:hover{
+	width: 290px;
+	height: 400px;
+}

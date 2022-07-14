@@ -1,0 +1,33 @@
+body {
+  margin:0;
+  height:150vh;
+  background-color: #f9f9f9;
+}
+
+.sticky-icon-bar {
+  position: fixed;
+  top: 50%;
+  box-shadow:5px 0 20px rgba(0,0,0,0.4);
+  transform: translateY(-50%);
+}
+
+.sticky-icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #333;
+  font-size: 20px;
+  background-color: #ffffff;
+}
+
+.sticky-icon-bar a:hover {
+  background-color: #333;
+  color: white;
+}
+
+.text {
+  margin: 80px;
+  font-size: 28px;
+  text-align: justify;
+}
